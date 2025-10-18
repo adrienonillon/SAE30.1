@@ -1,12 +1,380 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/style.css">
-  <title>SAE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logitech - Page Produit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Petite astuce pour la police par défaut, si on veut se rapprocher */
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+    </style>
 </head>
-<body>
-  
+<body class="bg-white text-gray-900">
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <header class="py-5">
+            <nav class="flex justify-between items-center">
+                <div>
+                    <svg height="32" viewBox="0 0 260 90" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M224.22 83.053c-1.87 0-3.33-1.46-3.33-3.33v-36.1c0-1.87 1.46-3.33 3.33-3.33s3.33 1.46 3.33 3.33v36.1c0 1.87-1.46 3.33-3.33 3.33zm-4.7-27.53c0 4.14 3.32 7.47 7.46 7.47s7.46-3.33 7.46-7.47v-1.33c0-4.14-3.32-7.47-7.46-7.47s-7.46 3.33-7.46 7.47v1.33zm4.7-19.4c-9.28 0-16.8 7.52-16.8 16.8v1.33c0 9.28 7.52 16.8 16.8 16.8s16.8-7.52 16.8-16.8v-1.33c0-9.28-7.52-16.8-16.8-16.8zm-22.33 21.03c-2.07 0-3.75-1.68-3.75-3.75v-26.54c0-2.07 1.68-3.75 3.75-3.75s3.75 1.68 3.75 3.75v26.54c0 2.07-1.68 3.75-3.75 3.75zm-19.88 18.06c-1.87 0-3.33-1.46-3.33-3.33v-36.1c0-1.87 1.46-3.33 3.33-3.33s3.33 1.46 3.33 3.33v36.1c0 1.87-1.46 3.33-3.33 3.33zm-4.7-27.53c0 4.14 3.33 7.47 7.47 7.47s7.47-3.33 7.47-7.47v-1.33c0-4.14-3.33-7.47-7.47-7.47s-7.47 3.33-7.47 7.47v1.33zm4.7-19.4c-9.28 0-16.8 7.52-16.8 16.8v1.33c0 9.28 7.52 16.8 16.8 16.8s16.8-7.52 16.8-16.8v-1.33c0-9.28-7.52-16.8-16.8-16.8zm-22.34 21.03c-2.07 0-3.75-1.68-3.75-3.75v-26.54c0-2.07 1.68-3.75 3.75-3.75s3.75 1.68 3.75 3.75v26.54c0 2.07-1.68 3.75-3.75 3.75zm-21.75 18.06c-9.25 0-16.73-7.48-16.73-16.73v-23.9c0-1.87 1.46-3.33 3.33-3.33s3.33 1.46 3.33 3.33v23.9c0 5.51 4.45 9.96 9.96 9.96s9.96-4.45 9.96-9.96v-23.9c0-1.87 1.46-3.33 3.33-3.33s3.33 1.46 3.33 3.33v23.9c.01 9.25-7.47 16.73-16.72 16.73zm-21.84-41.93c-2.07 0-3.75-1.68-3.75-3.75V10.89c0-2.07 1.68-3.75 3.75-3.75s3.75 1.68 3.75 3.75v26.54c0 2.07-1.68 3.75-3.75 3.75zm-16.59 2.06c-2.07 0-3.75-1.68-3.75-3.75v-26.54c0-2.07 1.68-3.75 3.75-3.75s3.75 1.68 3.75 3.75v26.54c0 2.07-1.68 3.75-3.75 3.75zm-16.4 18.06c-9.25 0-16.73-7.48-16.73-16.73v-23.9c0-1.87 1.46-3.33 3.33-3.33s3.33 1.46 3.33 3.33v23.9c0 5.51 4.45 9.96 9.96 9.96s9.96-4.45 9.96-9.96v-23.9c0-1.87 1.46-3.33 3.33-3.33s3.33 1.46 3.33 3.33v23.9c.01 9.25-7.47 16.73-16.72 16.73zm-32.07-39.87c-1.87 0-3.33-1.46-3.33-3.33V10.9c0-1.87 1.46-3.33 3.33-3.33s3.33 1.46 3.33 3.33v26.53c0 1.87-1.46 3.33-3.33 3.33zm-11.73 39.87c-1.87 0-3.33-1.46-3.33-3.33v-36.1c0-1.87 1.46-3.33 3.33-3.33s3.33 1.46 3.33 3.33v36.1c0 1.87-1.46 3.33-3.33 3.33zm-4.7-27.53c0 4.14 3.33 7.47 7.47 7.47s7.47-3.33 7.47-7.47v-1.33c0-4.14-3.33-7.47-7.47-7.47s-7.47 3.33-7.47 7.47v1.33zm4.7-19.4c-9.28 0-16.8 7.52-16.8 16.8v1.33c0 9.28 7.52 16.8 16.8 16.8s16.8-7.52 16.8-16.8v-1.33c0-9.28-7.52-16.8-16.8-16.8zm-20.9 21.03c-2.07 0-3.75-1.68-3.75-3.75v-26.54c0-2.07 1.68-3.75 3.75-3.75s3.75 1.68 3.75 3.75v26.54c0 2.07-1.68 3.75-3.75 3.75zm-16.58-2.06c-2.07 0-3.75-1.68-3.75-3.75v-26.54c0-2.07 1.68-3.75 3.75-3.75s3.75 1.68 3.75 3.75v26.54c0 2.07-1.68 3.75-3.75 3.75zm-16.41 18.06c-9.25 0-16.73-7.48-16.73-16.73v-23.9c0-1.87 1.46-3.33 3.33-3.33s3.33 1.46 3.33 3.33v23.9c0 5.51 4.45 9.96 9.96 9.96s9.96-4.45 9.96-9.96v-23.9c0-1.87 1.46-3.33 3.33-3.33s3.33 1.46 3.33 3.33v23.9c.01 9.25-7.47 16.73-16.72 16.73z" />
+                    </svg>
+                </div>
+                <div class="flex items-center space-x-5">
+                    <button class="text-gray-600 hover:text-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </button>
+                    <button class="text-gray-600 hover:text-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A1.875 1.875 0 0 1 18.12 22.5H5.88a1.875 1.875 0 0 1-1.379-2.382Z" />
+                        </svg>
+                    </button>
+                    <button class="text-gray-600 hover:text-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a.512.512 0 0 0-.47-0.68H5.25M7.5 14.25S5.85 16.5 4.5 16.5m3-13.5h10.5m-10.5 0a3 3 0 0 0-3 3m15 0a3 3 0 0 0-3-3m-12 0V3.375c0-.621.504-1.125 1.125-1.125h11.25c.621 0 1.125.504 1.125 1.125v3.75m-13.5 0h13.5m-13.5 0a3 3 0 0 1-3-3m15 0a3 3 0 0 1-3 3" />
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+            <div class="border-b border-gray-200 mt-4"></div>
+        </header>
+
+        <section class="py-12 md:py-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full mb-4">
+                        En vedette
+                    </span>
+                    <h1 class="text-5xl font-bold mb-5">MX Master 3S</h1>
+                    <p class="text-gray-600 text-lg mb-6">
+                        La MX Master 3S est la souris sans fil ultime pour les
+                        professionnels. Conçue pour la productivité, elle offre un confort
+                        exceptionnel et une précision redoutable grâce à son capteur de
+                        8000 DPI.
+                    </p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-600 mb-8">
+                        <li>Capteur haute précision 8000 DPI</li>
+                        <li>Clics silencieux (90% de bruit en moins)</li>
+                        <li>Défilement MagSpeed ultra-rapide et silencieux</li>
+                    </ul>
+                    
+                    <p class="text-4xl font-bold mb-8">119.99 €</p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-black text-white px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors">
+                            Acheter
+                        </button>
+                        <select class="border border-gray-300 rounded-md px-4 py-3 bg-white">
+                            <option>Configuration</option>
+                            <option>Graphite</option>
+                            <option>Pale Gray</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <img src="https://placehold.co/600x400/1a1a2e/c0c0ff?text=MX+Master+3S" alt="Souris MX Master 3S" class="w-full rounded-lg shadow-2xl">
+                    <button class="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-4 bg-white/70 backdrop-blur-sm p-2 rounded-full shadow-md hover:bg-white transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-700">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                        </svg>
+                    </button>
+                    <button class="absolute top-1/2 right-0 -translate-y-1/2 translate-x-4 bg-white/70 backdrop-blur-sm p-2 rounded-full shadow-md hover:bg-white transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-700">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+        <div class="border-b-2 border-dashed border-gray-200 my-8"></div>
+
+        <section class="py-12">
+            <div class="flex justify-between items-baseline mb-6">
+                <h2 class="text-3xl font-bold">Souris</h2>
+                <p class="text-sm text-gray-500">8 produits disponibles</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/300x200/1a1a2e/c0c0ff?text=Souris+1" alt="Souris sans fil" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <p class="text-xs text-gray-500 mb-1">Souris sans fil</p>
+                        <h3 class="font-semibold text-lg mb-2">MX Master 3S</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="font-bold text-gray-800">132,00 €</p>
+                            <button class="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a.512.512 0 0 0-.47-0.68H5.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/300x200/1a1a2e/c0c0ff?text=Souris+2" alt="Souris sans fil" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <p class="text-xs text-gray-500 mb-1">Souris sans fil</p>
+                        <h3 class="font-semibold text-lg mb-2">G PRO X</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="font-bold text-gray-800">112,00 €</p>
+                            <button class="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a.512.512 0 0 0-.47-0.68H5.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/300x200/1a1a2e/c0c0ff?text=Souris+3" alt="Souris sans fil" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <p class="text-xs text-gray-500 mb-1">Souris sans fil</p>
+                        <h3 class="font-semibold text-lg mb-2">MX Anywhere 3</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="font-bold text-gray-800">92,00 €</p>
+                            <button class="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a.512.512 0 0 0-.47-0.68H5.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/300x200/1a1a2e/c0c0ff?text=Souris+4" alt="Souris sans fil" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <p class="text-xs text-gray-500 mb-1">Souris sans fil</p>
+                        <h3 class="font-semibold text-lg mb-2">Lift Vertical</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="font-bold text-gray-800">79,00 €</p>
+                            <button class="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a.512.512 0 0 0-.47-0.68H5.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-12">
+            <div class="flex justify-between items-baseline mb-6">
+                <h2 class="text-3xl font-bold">Claviers</h2>
+                <p class="text-sm text-gray-500">5 produits disponibles</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/300x200/2a2a3e/d0d0ff?text=Clavier+1" alt="Clavier sans fil" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <p class="text-xs text-gray-500 mb-1">Clavier sans fil</p>
+                        <h3 class="font-semibold text-lg mb-2">MX Mechanical</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="font-bold text-gray-800">179,00 €</p>
+                            <button class="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a.512.512 0 0 0-.47-0.68H5.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/300x200/2a2a3e/d0d0ff?text=Clavier+2" alt="Clavier sans fil" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <p class="text-xs text-gray-500 mb-1">Clavier sans fil</T>
+                        <h3 class="font-semibold text-lg mb-2">MX Keys S</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="font-bold text-gray-800">129,00 €</p>
+                            <button class="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a.512.512 0 0 0-.47-0.68H5.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/300x200/2a2a3e/d0d0ff?text=Clavier+3" alt="Clavier sans fil" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <p class="text-xs text-gray-500 mb-1">Clavier sans fil</p>
+                        <h3 class="font-semibold text-lg mb-2">G915 TKL</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="font-bold text-gray-800">229,00 €</p>
+                            <button class="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a.512.512 0 0 0-.47-0.68H5.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/300x200/2a2a3e/d0d0ff?text=Clavier+4" alt="Clavier sans fil" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <p class="text-xs text-gray-500 mb-1">Clavier sans fil</p>
+                        <h3 class="font-semibold text-lg mb-2">MX Keys Mini</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="font-bold text-gray-800">109,00 €</p>
+                            <button class="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a.512.512 0 0 0-.47-0.68H5.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-12">
+            <div class="flex justify-between items-baseline mb-6">
+                <h2 class="text-3xl font-bold">Casques</h2>
+                <p class="text-sm text-gray-500">9 produits disponibles</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/300x200/3a3a4e/e0e0ff?text=Casque+1" alt="Casque sans fil" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <p class="text-xs text-gray-500 mb-1">Casque sans fil</p>
+                        <h3 class="font-semibold text-lg mb-2">G Pro X 2</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="font-bold text-gray-800">219,00 €</p>
+                            <button class="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a.512.512 0 0 0-.47-0.68H5.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/300x200/3a3a4e/e0e0ff?text=Casque+2" alt="Casque sans fil" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <p class="text-xs text-gray-500 mb-1">Casque sans fil</p>
+                        <h3 class="font-semibold text-lg mb-2">Astro A50 X</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="font-bold text-gray-800">399,00 €</p>
+                            <button class="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a.512.512 0 0 0-.47-0.68H5.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/300x200/3a3a4e/e0e0ff?text=Casque+3" alt="Casque sans fil" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <p class="text-xs text-gray-500 mb-1">Casque sans fil</p>
+                        <h3 class="font-semibold text-lg mb-2">Zone Vibe 100</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="font-bold text-gray-800">109,00 €</p>
+                            <button class="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a.512.512 0 0 0-.47-0.68H5.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300">
+                    <img src="https://placehold.co/300x200/3a3a4e/e0e0ff?text=Casque+4" alt="Casque sans fil" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <p class="text-xs text-gray-500 mb-1">Casque sans fil</p>
+                        <h3 class="font-semibold text-lg mb-2">G733</h3>
+                        <div class="flex justify-between items-center">
+                            <p class="font-bold text-gray-800">149,00 €</p>
+                            <button class="w-10 h-10 bg-cyan-500 text-white rounded-full flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a.512.512 0 0 0-.47-0.68H5.25" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div> <footer class="bg-gray-900 text-gray-400 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Logitech</h4>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="#" class="hover:text-white">[FB]</a>
+                        <a href="#" class="hover:text-white">[TW]</a>
+                        <a href="#" class="hover:text-white">[IG]</a>
+                        <a href="#" class="hover:text-white">[YT]</a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Produits</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">Souris</a></li>
+                        <li><a href="#" class="hover:text-white">Claviers</a></li>
+                        <li><a href="#" class="hover:text-white">Audio</a></li>
+                        <li><a href="#" class="hover:text-white">Webcams</a></li>
+                        <li><a href="#" class="hover:text-white">Gaming</a></li>
+                        <li><a href="#" class="hover:text-white">Offres spéciales</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">Aide et support</a></li>
+                        <li><a href="#" class="hover:text-white">Téléchargements</a></li>
+                        <li><a href="#" class="hover:text-white">Enregistrement</a></li>
+                        <li><a href="#" class="hover:text-white">Retours</a></li>
+                        <li><a href="#" class="hover:text-white">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Entreprise</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white">À propos de Logitech</a></li>
+                        <li><a href="#" class="hover:text-white">Carrières</a></li>
+                        <li><a href="#" class="hover:text-white">Investisseurs</a></li>
+                        <li><a href="#" class="hover:text-white">Presse</a></li>
+                        <li><a href="#" class="hover:text-white">Durabilité</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 pt-8 mb-12">
+                <h4 class="text-white font-semibold mb-2">Restez informé</h4>
+                <p class="text-sm mb-4">Inscrivez-vous pour recevoir des e-mails sur les produits et les offres spéciales.</p>
+                <form class="flex flex-col sm:flex-row gap-4 max-w-lg">
+                    <input type="email" placeholder="Votre adresse e-mail" class="flex-grow bg-gray-800 border border-gray-700 rounded-md p-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-700 transition-colors">
+                        S'inscrire
+                    </button>
+                </form>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-8 text-sm text-gray-500 flex flex-col sm:flex-row justify-between gap-4">
+                <p>&copy; 2025 Logitech. Tous droits réservés.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-gray-300">Conditions d'utilisation</a>
+                    <a href="#" class="hover:text-gray-300">Politique de confidentialité</a>
+                    <a href="#" class="hover:text-gray-300">Cookies</a>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
 </body>
 </html>
