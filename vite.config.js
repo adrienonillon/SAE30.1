@@ -16,7 +16,7 @@ export default defineConfig({
        information_commande: resolve(__dirname, "page-information_commande.html"),
        validation_historique: resolve(__dirname, "validation_historique.html"),
        historique_commande: resolve(__dirname, "historique_commande.html"),
-       inscription: resolve(__dirname, "inscrition.html"),
+       inscription: resolve(__dirname, "inscription.html"),
        connexion: resolve(__dirname, "page-connexion.html"),
        invité_connexion: resolve(__dirname, "page-invité_connexion.html"),
        // ajoutez d'autres pages si nécessaire
