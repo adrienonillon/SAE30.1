@@ -1,9 +1,30 @@
 @import "tailwindcss";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+@font-face {
+    font-family: 'BrownLight';
+    src: url('BrownLight.woff2') format('woff2'),
+        url('BrownLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
+@font-face {
+    font-family: 'Brown';
+    src: url('BrownBold.woff2') format('woff2'),
+        url('BrownBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'BrownMedium';
+    src: url('BrownMedium.woff2') format('woff2'),
+        url('BrownMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
